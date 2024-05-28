@@ -19,6 +19,7 @@
                 <Label Text="Layouts" />
                 <Button Text="StackLayout"  Clicked="AbrirStackLayout"  HorizontalOptions="Start" BackgroundColor="Transparent"/>
                 <Button Text="GradeLayout"  Clicked="AbrirGradeLayout" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                <Button Text="AbsoluteLayout"  Clicked="AbrirAbsoluteLayout" HorizontalOptions="Start" BackgroundColor="Transparent"/>
             </StackLayout>
         </ContentPage>
     </FlyoutPage.Flyout>
