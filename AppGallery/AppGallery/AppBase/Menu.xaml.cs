@@ -76,5 +76,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Layouts.RelativeLayout.RelativeLayout();
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirFlexLayout(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Layouts.FlexivelLayout.Flexivel();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
