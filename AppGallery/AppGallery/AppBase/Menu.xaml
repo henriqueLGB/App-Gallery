@@ -7,22 +7,25 @@
    <!--Menu -->
     <FlyoutPage.Flyout>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Label Text="Páginas" />
-                <Button Text="ContentPage"    Clicked="AbrirContentPage"    HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="NavigationPage" Clicked="AbrirNavigationPage" HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="Carrousel"      Clicked="AbrirCarrousel"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="TabbedPage"     Clicked="AbrirTabbedPage"     HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="FlyoutPage"     Clicked="AbrirFlyoutPage"     HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="Modal"          Clicked="AbrirModal"          HorizontalOptions="Start" BackgroundColor="Transparent"/>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Páginas" />
+                    <Button Text="ContentPage"    Clicked="AbrirContentPage"    HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="NavigationPage" Clicked="AbrirNavigationPage" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="Carrousel"      Clicked="AbrirCarrousel"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="TabbedPage"     Clicked="AbrirTabbedPage"     HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="FlyoutPage"     Clicked="AbrirFlyoutPage"     HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="Modal"          Clicked="AbrirModal"          HorizontalOptions="Start" BackgroundColor="Transparent"/>
 
-                <Label Text="Layouts" />
-                <Button Text="StackLayout"      Clicked="AbrirStackLayout"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="GradeLayout"      Clicked="AbrirGradeLayout"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="AbsoluteLayout"   Clicked="AbrirAbsoluteLayout"   HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="RelativeLayout"   Clicked="AbrirRelativeLayout"   HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                <Button Text="FlexLayout"       Clicked="AbrirFlexLayout"        HorizontalOptions="Start" BackgroundColor="Transparent"/>
-            </StackLayout>
+                    <Label Text="Layouts" />
+                    <Button Text="StackLayout"      Clicked="AbrirStackLayout"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="GradeLayout"      Clicked="AbrirGradeLayout"      HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="AbsoluteLayout"   Clicked="AbrirAbsoluteLayout"   HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="RelativeLayout"   Clicked="AbrirRelativeLayout"   HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="FlexLayout"       Clicked="AbrirFlexLayout"       HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="ScrollView"       Clicked="AbrirScrollView"       HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </FlyoutPage.Flyout>
     
