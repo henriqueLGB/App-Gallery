@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.Xamarin_forms.Layouts.ControleLayout.Controle"
+             xmlns:controle ="clr-namespace:AppGallery.Xamarin_forms.Layouts.ControleLayout">
+    <ContentPage.Content>
+        <StackLayout>
+            <controle:CardHorizontal Titulo="Not 01" Texto="Notícia número 01" Cor="Gray"/>
+            <controle:CardHorizontal Titulo="Not 02" Texto="Notícia número 02" Cor="red"/>
+            <controle:CardHorizontal Titulo="Not 03" Texto="Notícia número 03" Cor="Green"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
