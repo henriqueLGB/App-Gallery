@@ -100,5 +100,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Layouts.QuadradoLayout.Quadrado();
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirBoxView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Controles.BoxView.Caixa();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
