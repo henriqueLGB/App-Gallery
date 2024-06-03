@@ -94,5 +94,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Layouts.ControleLayout.Controle();
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirFrame(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Layouts.QuadradoLayout.Quadrado();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

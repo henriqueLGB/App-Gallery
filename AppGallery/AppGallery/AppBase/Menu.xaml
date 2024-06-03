@@ -25,6 +25,7 @@
                     <Button Text="FlexLayout"       Clicked="AbrirFlexLayout"       HorizontalOptions="Start" BackgroundColor="Transparent"/>
                     <Button Text="ScrollView"       Clicked="AbrirScrollView"       HorizontalOptions="Start" BackgroundColor="Transparent"/>
                     <Button Text="ContentView"      Clicked="AbrirControleView"     HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="Frame"            Clicked="AbrirFrame"   HorizontalOptions="Start" BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
