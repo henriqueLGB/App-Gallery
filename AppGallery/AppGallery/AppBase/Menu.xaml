@@ -29,6 +29,7 @@
 
                     <Label Text="Controles" />
                     <Button Text="BoxView" Clicked="AbrirBoxView"  HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="Label" Clicked="AbrirLabel" HorizontalOptions="Start" BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

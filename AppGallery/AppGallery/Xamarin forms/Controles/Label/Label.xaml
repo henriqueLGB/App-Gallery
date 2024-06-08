@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.Xamarin_forms.Controles.Label.Label">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <Label Text="FontFamily, Fontsize, FontAttributes" TextColor="Black"/>
+                <Label Text="Texto 01" FontFamily="sans-serif-condensed" FontSize="24" FontAttributes="Italic"/>
+                
+                <Label Text="HorizontalTextAlign, VerticalTextAlign" TextColor="Black"/>
+                <Label Text="Texto 01" HorizontalTextAlignment="Center" BackgroundColor="Black" TextColor="White" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+                <Label Text="Texto 02" VerticalTextAlignment="Center"   BackgroundColor="Black" TextColor="White" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+
+                <Label Text="TextType"  TextColor="Black"/>
+                <Label Text="Texto &lt;strong&gt;01&lt;/strong&gt;"  TextType="Html"/>
+                <Label TextType="Html">
+                    <![CDATA[
+                        Texto <strong><i>01</i></strong>
+                    ]]>
+                </Label>
+
+
+                <Label Text="FormattedText" TextColor="Black"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Texto " TextColor="Green" FontSize="12"/>
+                            <Span Text="01" TextColor="Red" FontSize="14"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Text="TextColor" TextColor="Black"/>
+                <Label Text="Texto 01"  TextColor="#FF0000"/>
+                <Label Text="Texto 02"  TextColor="#7FFF0000"/>
+
+                <Label Text="TextDecoration" TextColor="Black" TextDecorations="None"/>
+                <Label Text="Texto 01" TextDecorations="Strikethrough"/>
+                <Label Text="Texto 02" TextDecorations="Underline"/>
+
+                <Label Text="CharacterSpacing" TextColor="Black" />
+                <Label Text="Texto 01" CharacterSpacing="-2"/>
+                <Label Text="Texto 02" CharacterSpacing="5"/>
+
+                <Label Text="LineHeight" TextColor="Black"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       MaxLines="3"
+                       LineHeight="1.2"/>
+
+                <Label Text="MaxLines" TextColor="Black"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       MaxLines="3"/>
+
+                <Label Text="LineBreakMode" TextColor="Black"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       TextColor="Gray"
+                       LineBreakMode="WordWrap"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       TextColor="Green"
+                       LineBreakMode="NoWrap"
+                       />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       TextColor="Gray"
+                       LineBreakMode="CharacterWrap"
+                       />
+                <Label  Text="Head:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                        TextColor="Green"
+                        LineBreakMode="HeadTruncation"
+                       />
+                <Label Text="Middle:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       TextColor="Gray"
+                       LineBreakMode="MiddleTruncation"
+                       />
+                <Label Text="Tail:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a urna sed augue dictum placerat. In hac habitasse platea dictumst. Etiam et congue dolor. Morbi efficitur vehicula nulla, nec vestibulum odio congue ut. Sed ut massa purus. Aenean consequat ex in ipsum aliquam dignissim. Sed et sapien accumsan, vestibulum tortor in, interdum nisl. Donec ut ex ut nisl elementum egestas. Nulla id dui massa. Vestibulum sagittis rhoncus augue eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae lacinia ipsum, ut convallis sem. Phasellus neque quam, varius vitae metus vitae, consequat ornare tellus. Ut lobortis neque sit amet ligula ornare feugiat. Aliquam mattis commodo est a porta. In ut laoreet neque, vel tempor justo. In sodales ullamcorper libero, in malesuada neque imperdiet in." 
+                       TextColor="Green"
+                       LineBreakMode="TailTruncation"
+                       />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

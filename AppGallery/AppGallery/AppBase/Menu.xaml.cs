@@ -106,5 +106,12 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Controles.BoxView.Caixa();
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirLabel(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new Xamarin_forms.Controles.Label.Label();
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
     }
 }
