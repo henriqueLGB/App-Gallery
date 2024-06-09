@@ -160,4 +160,9 @@
       <Name>AppGallery</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\send%402x.png" />
+    <Content Include="Resources\send%403x.png" />
+    <Content Include="Resources\send.png" />
+  </ItemGroup>
 </Project>

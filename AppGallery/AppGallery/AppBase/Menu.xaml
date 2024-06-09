@@ -28,8 +28,9 @@
                     <Button Text="Frame"            Clicked="AbrirFrame"            HorizontalOptions="Start" BackgroundColor="Transparent"/>
 
                     <Label Text="Controles" />
-                    <Button Text="BoxView" Clicked="AbrirBoxView"  HorizontalOptions="Start" BackgroundColor="Transparent"/>
-                    <Button Text="Label" Clicked="AbrirLabel" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Button Text="BoxView"  Clicked="AbrirBoxView"  HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Label"    Clicked="AbrirLabel" HorizontalOptions="Start"      BackgroundColor="Transparent"/>
+                    <Button Text="Button"   Clicked="AbrirButton" HorizontalOptions="Start"  BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
