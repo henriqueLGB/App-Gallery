@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.Xamarin_forms.Controles.Entry.Entry">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Text, TextColor" />
+                <Entry Text="Texto simples" TextColor="Blue"/>
+
+                <Label Text="Placeholder, PlaceholderColor" />
+                <Entry Placeholder="Digite o seu nome" PlaceholderColor="LightBlue" />
+
+                <Label Text="MaxLength, Background" />
+                <Entry MaxLength="10" BackgroundColor="LightGray"/>
+
+                <Label Text="IsReadOnly, IsPassword" />
+                <Entry Text="123456" IsPassword="True" IsReadOnly="True"/>
+
+                <Label Text="ClearButtonVisibilty" />
+                <Entry ClearButtonVisibility="WhileEditing"/>
+
+                <Label Text="CharacterSpacing" />
+                <Entry CharacterSpacing="5"/>
+
+                <Label Text="FontFamily, FontSize, FontAttributes" />
+                <Entry FontFamily="sans-serif-thin" FontSize="32" FontAttributes="Italic"/>
+
+                <Label Text="CursorPosition, SelectionLength" />
+                <Entry Text="Henrique Lira" CursorPosition="11" SelectionLength="4"/>
+
+                <Label Text="IsSpellCheckEnabled, IsTextPredictionEnabled" />
+                <Entry IsSpellCheckEnabled="True" IsTextPredictionEnabled="True"/>
+
+                <Label Text="KeyBoard, KeyboardFlags, ReturnType" />
+                <Entry Keyboard="Numeric" ReturnType="Next"/>
+                <Entry ReturnType="Send">
+                    <Entry.Keyboard>
+                        <Keyboard x:FactoryMethod="Create">
+                            <x:Arguments>
+                                <KeyboardFlags>Suggestion, CapitalizeCharacter</KeyboardFlags>
+                            </x:Arguments>
+                        </Keyboard>
+                    </Entry.Keyboard>
+                </Entry>
+
+                <Label Text="Focused, UnFocused, TextChanged, Completed" />
+                <Entry Focused="FocusEvento" Unfocused="UnFocusEvento" TextChanged="TextChangeEvento" Completed="CompletedEvento"/>
+
+                <Label x:Name="lblFocus"       Text="-"/>
+                <Label x:Name="lblUnfocus"     Text="-"/>
+                <Label x:Name="lblTextchange"  Text="-"/>
+                <Label x:Name="lblComplete"    Text="-"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

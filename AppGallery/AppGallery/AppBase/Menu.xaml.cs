@@ -130,5 +130,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.ImagemControle.Imagem());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirEntry(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Entry.Entry());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
