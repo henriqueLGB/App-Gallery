@@ -32,8 +32,10 @@
                     <Button Text="Label"        Clicked="AbrirLabel"        HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="Button"       Clicked="AbrirButton"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="ImageButton"  Clicked="AbrirImgButton"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="Image"        Clicked="AbrirImagem"       HorizontalOptions="Start"      BackgroundColor="Transparent"/>
-                    <Button Text="Entry"        Clicked="AbrirEntry"    HorizontalOptions="Start"      BackgroundColor="Transparent"/>
+                    <Button Text="Image"        Clicked="AbrirImagem"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Entry"        Clicked="AbrirEntry"        HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Editor"       Clicked="AbrirEditor"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Checkbox"     Clicked="AbrirCheckbox"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

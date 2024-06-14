@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppGallery.Xamarin_forms.Controles.Checkbox.Checkbox">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IsChecked, Color" />
+            <CheckBox  IsChecked="True" Color="Blue"/>
+
+            <Label Text="Evento: checkedChanged" />
+            <CheckBox  CheckedChanged="CheckBox_CheckedChanged"/>
+
+            <Label Text="-" x:Name="lblInformativo" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
