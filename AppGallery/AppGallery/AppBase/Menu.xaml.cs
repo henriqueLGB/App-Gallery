@@ -148,5 +148,23 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Checkbox.Checkbox());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirRadioButton(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.RadioButton.RadioButton());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSwitch(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Switch.Switch());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirStepper(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Stepper.Stepper());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

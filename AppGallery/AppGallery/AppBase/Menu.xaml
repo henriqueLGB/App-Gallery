@@ -35,7 +35,10 @@
                     <Button Text="Image"        Clicked="AbrirImagem"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="Entry"        Clicked="AbrirEntry"        HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="Editor"       Clicked="AbrirEditor"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="Checkbox"     Clicked="AbrirCheckbox"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Checkbox"     Clicked="AbrirCheckbox"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="RadioButton"  Clicked="AbrirRadioButton"  HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Switch"       Clicked="AbrirSwitch"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Stepper"      Clicked="AbrirStepper"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
