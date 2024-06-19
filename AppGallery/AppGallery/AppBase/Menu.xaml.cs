@@ -172,5 +172,17 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Arrastar.Arrasta());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirPicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.Seletor.Seletor());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDatePicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.DataSelecao.DataSelecao());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

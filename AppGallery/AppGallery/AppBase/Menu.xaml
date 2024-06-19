@@ -38,8 +38,10 @@
                     <Button Text="Checkbox"     Clicked="AbrirCheckbox"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="RadioButton"  Clicked="AbrirRadioButton"  HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="Switch"       Clicked="AbrirSwitch"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="Stepper"      Clicked="AbrirStepper"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="Slider"       Clicked="AbrirSlider"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Stepper"      Clicked="AbrirStepper"      HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Slider"       Clicked="AbrirSlider"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="Picker"       Clicked="AbrirPicker"       HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="DatePicker"   Clicked="AbrirDatePicker"   HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
