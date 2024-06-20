@@ -208,5 +208,17 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.BarraPesquisa.BarraDePesquisa());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirRefreshView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.AtualizaControle.Atualiza());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSwipeView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.ArrastaControle.Arrasta());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

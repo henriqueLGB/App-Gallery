@@ -46,6 +46,8 @@
                     <Button Text="ActivityIndicator"    Clicked="AbrirActivity"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="ProgressBar"          Clicked="AbrirProgressBar"  HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                     <Button Text="SearchBar"            Clicked="AbrirSearchBar"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="RefreshView"          Clicked="AbrirRefreshView"  HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="SwipeView"            Clicked="AbrirSwipeView"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
