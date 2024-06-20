@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.Xamarin_forms.Controles.RadioButton
+namespace AppGallery.Xamarin_forms.Controles.BotaoRadio
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RadioButton : ContentPage
+	public partial class BotaoRadio : ContentPage
 	{
-		public RadioButton ()
+		public BotaoRadio()
 		{
 			InitializeComponent ();
 		}
 
         private void RadioButton_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            lblInformativo.Text =  e.Value.ToString();
+            lblInformativo.Text = "Texto: " + ((RadioButton)sender).Content + " Valor: " + e.Value.ToString(); 
         }
     }
 }

@@ -151,7 +151,7 @@ namespace AppGallery.AppBase
 
         private void AbrirRadioButton(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.RadioButton.RadioButton());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.BotaoRadio.BotaoRadio());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
 
@@ -182,6 +182,30 @@ namespace AppGallery.AppBase
         private void AbrirDatePicker(object sender, EventArgs e)
         {
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.DataSelecao.DataSelecao());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirTimePicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.SeletorTempo.SelectorTime());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirActivity(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.IndicadorAtividade.IndificadorAtividade());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirProgressBar(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.BarraProgresso.BarraDeProgresso());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSearchBar(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.BarraPesquisa.BarraDePesquisa());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
     }

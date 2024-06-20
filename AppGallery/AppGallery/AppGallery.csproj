@@ -28,6 +28,9 @@
     <Compile Update="Xamarin forms\Controles\Arrastar\Arrasta.xaml.cs">
       <DependentUpon>Arrasta.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Xamarin forms\Controles\BotaoRadio\BotaoRadio.xaml.cs">
+      <DependentUpon>BotaoRadio.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +38,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="AppBase\Menu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Controles\BarraPesquisa\BarraDePesquisa.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Controles\BarraProgresso\BarraDeProgresso.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\BoxView\Caixa.xaml">
@@ -61,13 +70,19 @@
     <EmbeddedResource Update="Xamarin forms\Controles\ImagemControle\Imagem.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Controles\IndicadorAtividade\IndificadorAtividade.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\Label\Label.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Xamarin forms\Controles\RadioButton\RadioButton.xaml">
+    <EmbeddedResource Update="Xamarin forms\Controles\BotaoRadio\BotaoRadio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\Arrastar\Arrasta.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Controles\SeletorTempo\SelectorTime.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\Seletor\Seletor.xaml">
