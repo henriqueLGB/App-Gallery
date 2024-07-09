@@ -220,5 +220,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.ArrastaControle.Arrasta());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirWebView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.VisualizacaoWeb.VisualizacaoWeb());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
