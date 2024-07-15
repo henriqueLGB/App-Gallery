@@ -226,5 +226,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.VisualizacaoWeb.VisualizacaoWeb());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirMediaElement(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Controles.MediaElemento.MediaElemento());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

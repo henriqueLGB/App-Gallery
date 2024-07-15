@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.Xamarin_forms.Controles.MediaElemento.MediaElemento"
+             xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="MediaElement" />
+                <Label Text="Propriedades: ShowsPlaybackControls, AutoPlay, Aspect, Volume, IsLooping, KeepScreenOn, Position" />
+                <Label Text="Métodos: Play, Pause, Stop" />
+                <Label Text="Eventos: MediaOpened, MediaFailed, MediaEnded" />
+
+                <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <xct:MediaElement Source="ms-appx:///alarm.mp3" HorizontalOptions="FillAndExpand" HeightRequest="100" Aspect="AspectFill" AutoPlay="True" ShowsPlaybackControls="True" IsLooping="True"/>
+
+                <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <xct:MediaElement MediaOpened="MediaOpened" x:Name="VideoControle" Volume="1" Source="ms-appx:///spacedu.mp4" HorizontalOptions="FillAndExpand" HeightRequest="220" Aspect="AspectFill" AutoPlay="False" ShowsPlaybackControls="True"/>
+
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Label x:Name="LblPosicao" Text="00:00" />
+                    <Slider x:Name="SliderPosicaoVideo" MinimumTrackColor="Accent" MaximumTrackColor="LightGray" Minimum="0.0" Maximum="1.0" HorizontalOptions="FillAndExpand" WidthRequest="50"/>
+                    <Label x:Name="LblDuracao" Text="00:00" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Play"     Clicked="BotaoPlay"    BackgroundColor="gray" />
+                    <Button Text="Pause"    Clicked="BotaoPause"  BackgroundColor="gray" />
+                    <Button Text="Stop"     Clicked="BotaoStop"  BackgroundColor="gray" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Slider ValueChanged="SliderVolume" MinimumTrackColor="Accent" MaximumTrackColor="LightGray" Minimum="0.0" Maximum="1.0" HorizontalOptions="FillAndExpand" WidthRequest="50"/>
+                    <Label x:Name="lblVolume" Text="Volume" FontSize="8" HorizontalTextAlignment="Center" />
+                </StackLayout>
+
+                <Label Text="MP4(Online)" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <xct:MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4" HeightRequest="220" ShowsPlaybackControls="True" AutoPlay="False"/>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

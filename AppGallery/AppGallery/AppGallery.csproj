@@ -20,8 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.6" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -86,6 +87,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\Arrastar\Arrasta.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Controles\MediaElemento\MediaElemento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Controles\SeletorTempo\SelectorTime.xaml">

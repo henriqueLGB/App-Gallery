@@ -55,8 +55,11 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.CommunityToolkit">
+      <Version>2.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseUrl_Android.cs" />
@@ -420,6 +423,8 @@
     <AndroidAsset Include="Assets\elements.html" />
     <AndroidAsset Include="Assets\services.html" />
     <AndroidAsset Include="Assets\single-blog.html" />
+    <AndroidResource Include="Resources\raw\alarm.mp3" />
+    <AndroidResource Include="Resources\raw\spacedu.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
