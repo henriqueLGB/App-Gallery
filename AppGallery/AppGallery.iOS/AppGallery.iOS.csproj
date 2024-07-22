@@ -179,6 +179,7 @@
   <ItemGroup>
     <Content Include="Resources\about.html" />
     <Content Include="Resources\alarm.mp3" />
+    <Content Include="Resources\perfil.png" />
     <Content Include="Resources\spacedu.mp4" />
     <Content Include="Resources\blog.html" />
     <Content Include="Resources\contact.html" />

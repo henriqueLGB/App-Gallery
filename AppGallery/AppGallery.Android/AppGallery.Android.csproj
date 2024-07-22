@@ -425,6 +425,9 @@
     <AndroidAsset Include="Assets\single-blog.html" />
     <AndroidResource Include="Resources\raw\alarm.mp3" />
     <AndroidResource Include="Resources\raw\spacedu.mp4" />
+    <AndroidResource Include="Resources\drawable\perfil.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
