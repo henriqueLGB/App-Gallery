@@ -244,5 +244,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.TabelaControle.Tabela());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirListView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.ListaControle.Lista());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

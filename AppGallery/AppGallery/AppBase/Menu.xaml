@@ -54,6 +54,7 @@
 
                     <Label Text="Listas" />
                     <Button Text="TableView"            Clicked="AbrirTableView"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="ListView"             Clicked="AbrirListView"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
