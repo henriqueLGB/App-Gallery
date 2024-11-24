@@ -250,5 +250,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.ListaControle.Lista());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirCollectionView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.ColecaoControle.Colecao());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
