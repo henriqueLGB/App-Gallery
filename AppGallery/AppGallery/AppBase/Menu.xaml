@@ -53,9 +53,11 @@
                     <Button Text="Expander"             Clicked="AbrirExpander"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
 
                     <Label Text="Listas" />
-                    <Button Text="TableView"            Clicked="AbrirTableView"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="ListView"             Clicked="AbrirListView"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
-                    <Button Text="CollectionView"       Clicked="AbrirCollectionView"    HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="TableView"            Clicked="AbrirTableView"        HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="ListView"             Clicked="AbrirListView"         HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="CollectionView"       Clicked="AbrirCollectionView"   HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="CarouselView"         Clicked="AbrirCarouselView"     HorizontalOptions="Start"   BackgroundColor="Transparent"/>
+                    <Button Text="IndicatorView"        Clicked="AbrirIndicatorView"        HorizontalOptions="Start"   BackgroundColor="Transparent"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

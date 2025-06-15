@@ -256,5 +256,17 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.ColecaoControle.Colecao());
             ((FlyoutPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirCarouselView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.CarrosselControle.Carrossel());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirIndicatorView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new Xamarin_forms.Listas.IndicadorControle.Indicador());
+            ((FlyoutPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

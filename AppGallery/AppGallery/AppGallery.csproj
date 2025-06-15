@@ -32,6 +32,9 @@
     <Compile Update="Xamarin forms\Controles\BotaoRadio\BotaoRadio.xaml.cs">
       <DependentUpon>BotaoRadio.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Xamarin forms\Listas\CarrosselControle\Carrossel.xaml.cs">
+      <DependentUpon>Carrossel.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -137,7 +140,13 @@
     <EmbeddedResource Update="Xamarin forms\Layouts\RelativeLayout\RelativeLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Listas\CarrosselControle\Carrossel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Listas\ColecaoControle\Colecao.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xamarin forms\Listas\IndicadorControle\Indicador.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Xamarin forms\Listas\ListaControle\Lista.xaml">
